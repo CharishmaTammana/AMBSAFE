@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Ambulance System</title> 
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("ambulance-image.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+            padding: 50px;
+        }
+
+        .btn {
+            background-color: #00ff26;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #openMapBtn, #loginBtn {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <!--<button id="home" class="btn"> Home</button>-->
+        <h1 style="color: azure;">Welcome to AMBSAFE</h1>
+        <button id="openMapBtn" class="btn">Get shortest path</button>
+        <a href="login.html" id="loginBtn" class="btn">Login</a>
+        
+    </div>
+
+    <!-- Include your JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
